@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" style="width: 30%;" />
+  <img src="Images/logo.png" style="width: 30%;" />
    <h2>NDSMD</h2>
    
    [![GitHub contributors](https://img.shields.io/github/contributors/cybergammagroup/NDSMD)](https://github.com/cybergammagroup/NDSMD/graphs/contributors)
