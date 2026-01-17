@@ -15,6 +15,7 @@
         src="https://f-droid.org/badge/get-it-on.png" />
 </a>
 </div>
+
 - EN:
 
 NDSMD, a catholic android app blocker and screen time manager designed to help you deliver from the slavery of devil through screen addiction, and help you get closer to God, especially during Lent time.
