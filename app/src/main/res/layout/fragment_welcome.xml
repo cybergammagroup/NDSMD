@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="Welcome to NDSMD"
+                android:text="@string/welcome_ndsmd"
                 android:textColor="?attr/colorOnSurface"
                 android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
                 android:gravity="center"
                 android:letterSpacing="0.02"
                 android:lineSpacingMultiplier="1.2"
-                android:text="You're among the first to try NDSMD, an app designed to help you take control of your screen time in a fun and engaging way. 🚀\n\nSince we're still in beta, you might encounter a few rough edges—we'd love your feedback to make NDSMD even better!\n\nLet's start your journey to a healthier digital balance. 🎯"
+                android:text="@string/you_are_among_the_first"
                 android:textColor="?attr/colorOnSurfaceVariant" />
 
             <Button
@@ -71,7 +71,7 @@
                 android:layout_marginTop="40dp"
                 android:clickable="true"
                 android:gravity="center"
-                android:text="Read Terms and Conditions" />
+                android:text="@string/read_terms" />
 
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:id="@+id/cb_tos"
@@ -79,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="By pressing Next, you agree to our Terms and Conditions"
+                android:text="@string/by_pressing_agree"
                 android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
                 android:textColor="?attr/colorOnSurfaceVariant"
                 android:visibility="visible" />

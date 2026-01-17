@@ -1,12 +1,10 @@
 <div align="center">
-  <img src="fastlane/metadata/android/en-US/images/icon.png" style="width: 30%;" />
+  <img src="logo.png" style="width: 30%;" />
    <h2>NDSMD</h2>
    
-   [![GitHub contributors](https://img.shields.io/github/contributors/nethical6/ndsmd)](https://github.com/nethical6/ndsmd/graphs/contributors)
-   [![Discord Server](https://img.shields.io/badge/Discord%20Server-white?style=flat&logo=discord)](https://discord.com/invite/Vs9mwUtuCN)
-   [![Telegram Group](https://img.shields.io/badge/Telegram%20Group-blue?style=flat&logo=telegram)](https://t.me/ndsmd6)
-   [![Total downloads](https://img.shields.io/github/downloads/nethical6/ndsmd/total)](https://github.com/nethical6/ndsmd/releases)
-   [![Repository Size](https://img.shields.io/github/repo-size/nethical6/ndsmd)](https://github.com/nethical6/ndsmd)
+   [![GitHub contributors](https://img.shields.io/github/contributors/cybergammagroup/NDSMD)](https://github.com/cybergammagroup/NDSMD/graphs/contributors)
+   [![Total downloads](https://img.shields.io/github/downloads/cybergammagroup/NDSMD/total)](https://github.com/cybergammagroup/NDSMD/releases)
+   [![Repository Size](https://img.shields.io/github/repo-size/cybergammagroup/NDSMD)](https://github.com/cybergammagroup/NDSMD)
 
 </div>
 

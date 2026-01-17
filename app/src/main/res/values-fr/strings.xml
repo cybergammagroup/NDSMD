@@ -197,6 +197,22 @@
     <string name="display_over_apps">Afficher par-dessus d\'autres applications</string>
     <string name="thank_for_using_ndsmd">Merci d\'utiliser NDSMD</string>
     <string name="thank_for_using_ndsmd_text">Bonjour, Merci beaucoup d\'utiliser NDSMD. J\'espère vraiment que cette application vous aide à vous rapprocher de Dieu et à vous libérer de l\'esclavage du téléphone.</string>
+    <string name="quick_setup_guide">Guide de configuration rapide</string>
+    <string name="need_acc_perms">NDSMD nécessite des permissions d\'Accessibilité pour vous aider à suivre votre temps d\'écran. Le processus de configuration varie en fonction de comment vous avez installer l\'application.</string>
+    <string name="fdroidinstallation">Installation F-Droid</string>
+    <string name="fdroidinstall_method">✅ Vous avez installé via l\'application F-Droid ?\nVous êtes prêt ! Vous avez juste à suivre la configuration d\'accessibilité dans l\'étape suivante.\n\n⚠️ Vous avez téléchargé depuis le site F-Droid ?\nS\'il vous plait, installez depuis l\'application F-Droid à la place pour éviter des problèmes de permissions.</string>
+    <string name="apkinstallation">Installation APK</string>
+    <string name="apkinstall_method">Si vous avez installé depuis un apk suivez ces étapes:\n\n1️⃣ Ouvrir Paramètres → Applications → NDSMD\n\n2️⃣ Appuyer sur Autorisations → Accès spéciaux d\'applications → Accessibilité → Activer NDSMD\n\n3️⃣ Retourner dans les infos de l\'application NDSMD  → Défiler vers le bas → Appuyer sur Paramètres Restreints → Autoriser\n\n💡 Conseils de pro: Installez via l\'application F-Droid pour une configuration plus simple ! 🚀</string>
+    <string name="getting_started">Premiers pas</string>
+    <string name="require_few_perms">NDSMD nécessite quelques permissions pour fonctionner proprement</string>
+    <string name="run_in_bg">Fonctionner en arrière plan</string>
+    <string name="send_notifs">Envoyer des Notifications</string>
+    <string name="do_you_want_to_restore">Voulez vous récupérer une sauvegarde précédente ? Vous ne pourrez pas faire de récupération de sauvegarde plus tard.</string>
+    <string name="restore_backup">Récupèrer une sauvegarde</string>
+    <string name="welcome_ndsmd">Bienvenue dans NDSMD !</string>
+    <string name="you_are_among_the_first">Vous êtes l\'un des premiers à utiliser NDSMD, une application conçue pour vous aider à vous rapprocher de Dieu et à vous libérer de l\'esclavage du démon à travers les addictions aux écrans, notamment pendant le carème. ✝️\n\nNDSMD est encore en beta, si vous rencontrez un bug, si vous avez une idée de fonctionnalité ou si vous souhaitez simplement donner votre avis, n\'hésitez pas à nous donner votre retour pour rendre NDSMD encore meilleur! 📞\n\nCommençons à combattre votre addiction aux écrans. ⚔️</string>
+    <string name="read_terms">Lire les Conditions Générales</string>
+    <string name="by_pressing_agree">En appuyant sur Suivant, vous approuvez nos Conditions Générales</string>
 </resources>
 
 

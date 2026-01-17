@@ -54,7 +54,7 @@ android {
                     variant.outputs
                         .map { it as com.android.build.gradle.internal.api.BaseVariantOutputImpl }
                         .forEach { output ->
-                            val outputFileName = "app-lite-universal-release-unsigned.apk"
+                            val outputFileName = "NDSMD-lite.apk"
                             println("OutputFileName: $outputFileName")
                             output.outputFileName = outputFileName
                         }

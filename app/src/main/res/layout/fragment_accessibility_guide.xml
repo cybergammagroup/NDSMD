@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="Quick Setup Guide"
+                android:text="@string/quick_setup_guide"
                 android:textColor="?attr/colorOnSurface"
                 android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
                 android:gravity="center"
                 android:letterSpacing="0.02"
                 android:lineSpacingMultiplier="1.2"
-                android:text="ndsmd needs Accessibility permissions to help you track your screen time. The setup process varies based on how you installed the app."
+                android:text="@string/need_acc_perms"
                 android:textColor="?attr/colorOnSurfaceVariant" />
 
             <com.google.android.material.card.MaterialCardView
@@ -98,7 +98,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="12dp"
-                            android:text="F-Droid Installation"
+                            android:text="@string/fdroidinstallation"
                             android:textColor="?attr/colorOnSurface" />
 
                     </LinearLayout>
@@ -111,7 +111,7 @@
                         android:layout_marginTop="12dp"
                         android:letterSpacing="0.02"
                         android:lineSpacingMultiplier="1.2"
-                        android:text="✅ Installed via F-Droid app?\nYou're all set! Just follow the accessibility setup in the next step.\n\n⚠️ Downloaded from F-Droid website?\nPlease install through the F-Droid app instead to avoid permission issues."
+                        android:text="@string/fdroidinstall_method"
                         android:textColor="?attr/colorOnSurfaceVariant" />
 
                 </LinearLayout>
@@ -152,7 +152,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="12dp"
-                            android:text="APK Installation"
+                            android:text="@string/apkinstallation"
                             android:textColor="?attr/colorOnSurface" />
 
                     </LinearLayout>
@@ -165,7 +165,7 @@
                         android:layout_marginTop="12dp"
                         android:letterSpacing="0.02"
                         android:lineSpacingMultiplier="1.2"
-                        android:text="If you installed from an APK, follow these steps:\n\n1️⃣ Open Settings → Apps → NDSMD\n\n2️⃣ Tap Permissions → Special App Access → Accessibility → Enable NDSMD\n\n3️⃣ Return to NDSMD App Info → Scroll down → Tap Restricted Settings → Allow\n\n💡 Pro tip: Install via F-Droid app for a smoother setup! 🚀"
+                        android:text="@string/apkinstall_method"
                         android:textColor="?attr/colorOnSurfaceVariant" />
 
                 </LinearLayout>

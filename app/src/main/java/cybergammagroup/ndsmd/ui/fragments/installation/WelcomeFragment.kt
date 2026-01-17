@@ -38,7 +38,7 @@ class WelcomeFragment : Fragment() {
         }
         binding.openTos.setOnClickListener {
             val intent =
-                Intent(Intent.ACTION_VIEW, Uri.parse("https://ndsmd.life/terms-and-conditions"))
+                Intent(Intent.ACTION_VIEW, Uri.parse("https://cybergamma.group/NDSMD/terms_of_use"))
             try {
                 startActivity(intent)
             } catch (e: ActivityNotFoundException) {

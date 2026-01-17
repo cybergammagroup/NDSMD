@@ -187,4 +187,20 @@
     <string name="display_over_apps">Display Over Apps</string>
     <string name="thank_for_using_ndsmd">Thanks for using NDSMD</string>
     <string name="thank_for_using_ndsmd_text">Hello, Thanks you very much for using NDSMD. I really hope this app help you get closer to God and deliver from the slavery of smartphones.</string>
+    <string name="quick_setup_guide">Quick Setup Guide</string>
+    <string name="need_acc_perms">NDSMD needs Accessibility permissions to help you track your screen time. The setup process varies based on how you installed the app.</string>
+    <string name="fdroidinstallation">F-Droid Installation</string>
+    <string name="fdroidinstall_method">✅ Installed via F-Droid app?\nYou\'re all set! Just follow the accessibility setup in the next step.\n\n⚠️ Downloaded from F-Droid website?\nPlease install through the F-Droid app instead to avoid permission issues.</string>
+    <string name="apkinstallation">APK Installation</string>
+    <string name="apkinstall_method">If you installed from an APK, follow these steps:\n\n1️⃣ Open Settings → Apps → NDSMD\n\n2️⃣ Tap Permissions → Special App Access → Accessibility → Enable NDSMD\n\n3️⃣ Return to NDSMD App Info → Scroll down → Tap Restricted Settings → Allow\n\n💡 Pro tip: Install via F-Droid app for a smoother setup! 🚀</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="require_few_perms">NDSMD require a few permissions to run properly</string>
+    <string name="run_in_bg">Run in background</string>
+    <string name="send_notifs">Send Notifications</string>
+    <string name="do_you_want_to_restore">Do you want to restore a previously saved backup? You won\'t be allowed to restore later.</string>
+    <string name="restore_backup">Restore Backup</string>
+    <string name="welcome_ndsmd">Welcome to NDSMD!</string>
+    <string name="you_are_among_the_first">You\'re among the first to try NDSMD, an app designed to help you to get closer from God and to deliver from the devil slavery through screen addiction, especially during the Lent time. ✝️\n\nNDSMD is still in beta, if you encounter a bug, if you have a feature idea, or if you simply want to give your opinion, don\'t hesitate to give us your feedback to make NDSMD even better! 📞\n\nLet\'s start fighting the screen addiction. ⚔️</string>
+    <string name="read_terms">Read Terms and Conditions</string>
+    <string name="by_pressing_agree">By pressing Next, you agree to our Terms and Conditions</string>
 </resources>
