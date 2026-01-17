@@ -4,12 +4,12 @@
         android:enabled="true"
         android:icon="@drawable/focus_mode_icon"
         android:shortcutShortLabel="@string/focus_mode"
-        android:shortcutId="digipaws_focus_mode_shortcut"
+        android:shortcutId="ndsmd_focus_mode_shortcut"
         android:shortcutLongLabel="@string/focus_mode">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="nethical.digipaws"
-            android:targetClass="nethical.digipaws.ui.activity.ShortcutActivity" />
+            android:targetPackage="cybergammagroup.ndsmd"
+            android:targetClass="cybergammagroup.ndsmd.ui.activity.ShortcutActivity" />
         <categories android:name="digiipaws" />
         <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
     </shortcut>

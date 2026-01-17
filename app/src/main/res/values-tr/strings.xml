@@ -9,7 +9,7 @@
     <string name="usage_tracker">Kullanım Takibi (BETA)</string>
     <string name="disabled">Devre Dışı</string>
     <string name="select_pinned_apps">Sabitlenmiş uygulamaları seçin</string>
-    <string name="warning_launcher_settings">Bu seçeneğe erişmek için Digipaws\'ı varsayılan başlatıcı olarak ayarlayın</string>
+    <string name="warning_launcher_settings">Bu seçeneğe erişmek için NDSMD\'ı varsayılan başlatıcı olarak ayarlayın</string>
     <string name="select_blocked_apps">Engellenmiş uygulamaları seçin</string>
     <string name="start_focus_mode">Odak modunu başlat</string>
     <string name="warning_general_settings">Bu seçeneğe erişmek için Genel Erişilebilirlik Servisi\'ni etkinleştirin</string>
@@ -63,44 +63,44 @@
     <string name="app_icon">uygulama_simgesi</string>
 
     <string name="accessibility_permission_app_blocker">
-        Bunu etkinleştirmek DigiPaws\'ta şunların kilidini açacaktır:\n1. Uygulama Engelleme\n2. Odak Modu \n\n
-        DigiPaws, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
-        Bu, DigiPaws\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
+        Bunu etkinleştirmek NDSMD\'ta şunların kilidini açacaktır:\n1. Uygulama Engelleme\n2. Odak Modu \n\n
+        NDSMD, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
+        Bu, NDSMD\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
         İçiniz rahat olsun, tüm erişilebilirlik verileri cihazınızda güvenli bir şekilde kalır—verilerinizi asla paylaşmaz veya aktarmayız, gizliliğinizin her zaman korunduğundan emin oluruz.
         \n\n
     </string>
     <string name="accessibility_permission_view_blocker">
-        Bunu etkinleştirmek DigiPaws\'ta şunların kilidini açacaktır:\n1. Görünüm Engelleme\n2. Instagram reel\'lerini, TikTok ve YouTube short\'larını engelleme\n\n
-        DigiPaws, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
-        Bu, DigiPaws\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
+        Bunu etkinleştirmek NDSMD\'ta şunların kilidini açacaktır:\n1. Görünüm Engelleme\n2. Instagram reel\'lerini, TikTok ve YouTube short\'larını engelleme\n\n
+        NDSMD, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
+        Bu, NDSMD\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
         İçiniz rahat olsun, tüm erişilebilirlik verileri cihazınızda güvenli bir şekilde kalır—verilerinizi asla paylaşmaz veya aktarmayız, gizliliğinizin her zaman korunduğundan emin oluruz.
         \n\n
     </string>
     <string name="accessibility_permission_usage_tracker">
         BU ÖZELLİĞİN ÇALIŞMASI İÇİN DİĞER UYGULAMALARIN ÜZERİNDE GÖSTERME (DRAW OVER OTHER APPS) İZNİ GEREKMEKTEDİR. LÜTFEN ÖNCE BU İZNİ, SONRA BU ÖZELLİĞİ ETKİNLEŞTİRİN. SERVİS HATALI ÇALIŞIRSA YENİDEN BAŞLATIN.\n\n
 
-        Bunu etkinleştirmek DigiPaws\'ta şunların kilidini açacaktır:\n1. Kaydırılan reel/tiktok sayısını sayma\n2. Geçen süreyi gösteren bir kayan arayüz\n\n
-        DigiPaws, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
-        Bu, DigiPaws\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
+        Bunu etkinleştirmek NDSMD\'ta şunların kilidini açacaktır:\n1. Kaydırılan reel/tiktok sayısını sayma\n2. Geçen süreyi gösteren bir kayan arayüz\n\n
+        NDSMD, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
+        Bu, NDSMD\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
         İçiniz rahat olsun, tüm erişilebilirlik verileri cihazınızda güvenli bir şekilde kalır—verilerinizi asla paylaşmaz veya aktarmayız, gizliliğinizin her zaman korunduğundan emin oluruz.
         \n\n
     </string>
     <string name="accessibility_permission_keyword_blocker">
-        Bunu etkinleştirmek DigiPaws\'ta şunların kilidini açacaktır:\n1. Özel anahtar kelimeleri engelleme\n2. Yetişkinlere yönelik materyaller gibi içerikleri engelleme\n\n
-        DigiPaws, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
-        Bu, DigiPaws\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
+        Bunu etkinleştirmek NDSMD\'ta şunların kilidini açacaktır:\n1. Özel anahtar kelimeleri engelleme\n2. Yetişkinlere yönelik materyaller gibi içerikleri engelleme\n\n
+        NDSMD, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
+        Bu, NDSMD\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
         İçiniz rahat olsun, tüm erişilebilirlik verileri cihazınızda güvenli bir şekilde kalır—verilerinizi asla paylaşmaz veya aktarmayız, gizliliğinizin her zaman korunduğundan emin oluruz.
         \n\n
     </string>
 
     <string name="accessibility_permission_general_features">
-        Bunu etkinleştirmek DigiPaws\'ta şunların kilidini açacaktır:\n1. Kaldırma Koruması (Çalışması için kurulum gerekir)\n\n
-        DigiPaws, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
-        Bu, DigiPaws\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
+        Bunu etkinleştirmek NDSMD\'ta şunların kilidini açacaktır:\n1. Kaldırma Koruması (Çalışması için kurulum gerekir)\n\n
+        NDSMD, bir uygulama içinde sosyal medya akışı veya oyun gibi belirli bir özelliği ne zaman açtığınızı anlamak için erişilebilirlik verilerine ihtiyaç duyar.
+        Bu, NDSMD\'ın tercihlerinize göre bu özellikleri sizin için engellemesine olanak tanır, böylece odaklanmanıza ve ekran dikkat dağıtıcılarını azaltmanıza yardımcı olur.\n\n
         İçiniz rahat olsun, tüm erişilebilirlik verileri cihazınızda güvenli bir şekilde kalır—verilerinizi asla paylaşmaz veya aktarmayız, gizliliğinizin her zaman korunduğundan emin oluruz.
         \n\n
     </string>
-    <string name="admin_permission_desc">Digipaws Kaldırma Koruması</string>
+    <string name="admin_permission_desc">NDSMD Kaldırma Koruması</string>
     <string name="title">Başlık</string>
     <string name="close">Kapat</string>
     <string name="proceed">Devam Et</string>
@@ -143,23 +143,23 @@
     <string name="from">Başlangıç</string>
     <string name="end">Bitir</string>
     <string name="accept">Kabul Et</string>
-    <string name="accessibility_perm_desc">DigiPaws, deneyiminizi geliştirmek için uygulama izleme ve kullanım takibi gibi özellikler sağlamak amacıyla Erişilebilirlik iznini kullanır. Bu izin, DigiPaws\'ın uygulama etkinliklerini algılamasına ve cihaz kullanımını etkili bir şekilde yönetmenize yardımcı olmasına olanak tanır. İçiniz rahat olsun, tüm veriler cihazınızda yerel olarak işlenir ve asla herhangi bir sunucuya veya üçüncü tarafa gönderilmez. Gizliliğiniz ve veri güvenliğiniz en önemli önceliklerimizdir. \n \n Kabul Et\'e basarak yukarıdakileri anladığınızı ve kabul ettiğinizi beyan edersiniz.</string>
+    <string name="accessibility_perm_desc">NDSMD, deneyiminizi geliştirmek için uygulama izleme ve kullanım takibi gibi özellikler sağlamak amacıyla Erişilebilirlik iznini kullanır. Bu izin, NDSMD\'ın uygulama etkinliklerini algılamasına ve cihaz kullanımını etkili bir şekilde yönetmenize yardımcı olmasına olanak tanır. İçiniz rahat olsun, tüm veriler cihazınızda yerel olarak işlenir ve asla herhangi bir sunucuya veya üçüncü tarafa gönderilmez. Gizliliğiniz ve veri güvenliğiniz en önemli önceliklerimizdir. \n \n Kabul Et\'e basarak yukarıdakileri anladığınızı ve kabul ettiğinizi beyan edersiniz.</string>
     <string name="reject">Reddet</string>
     <string name="peel_the_onions">Soğanları soy</string>
     <string name="fix_your_life">Hayatını düzelt</string>
     <string name="perform_actions_like_a_back_press">Geri tuşuna basma gibi eylemler gerçekleştirme</string>
     <string name="read_content_on_screen">Ekrandaki içeriği okuma</string>
-    <string name="this_will_allow_digipaws_to">Bu, Digipaws\'a şu yetkileri verecektir:</string>
+    <string name="this_will_allow_ndsmd_to">Bu, NDSMD\'a şu yetkileri verecektir:</string>
     <string name="enable_2">"%1$s\'i Etkinleştir"</string>
-    <string name="device_admin_perm">DigiPaws, güvenliği artırmak ve belirli bir süreye kadar Digipaws\'ın kaldırılmasını engellemek için Cihaz Yöneticisi iznini kullanır. Tüm veriler cihazınızda güvenli bir şekilde saklanır ve asla dışarıyla paylaşılmaz.</string>
+    <string name="device_admin_perm">NDSMD, güvenliği artırmak ve belirli bir süreye kadar NDSMD\'ın kaldırılmasını engellemek için Cihaz Yöneticisi iznini kullanır. Tüm veriler cihazınızda güvenli bir şekilde saklanır ve asla dışarıyla paylaşılmaz.</string>
     <string name="prevent_uninstallation_attempts_until_a_set_condition_is_met">Belirlenen bir koşul karşılanana kadar kaldırma denemelerini önleme</string>
 
-    <string name="device_perm_draw_over_other_apps">DigiPaws, ekran üzerinde küçük bir kayan arayüz göstermek için "Diğer uygulamaların üzerinde gösterme" iznini kullanır. Bu arayüz, izlenen reel sayısını ve harcanan zamanı takip ederek kullanıcıların kullanımlarını gerçek zamanlı olarak daha fazla fark etmelerine yardımcı olur.</string>
+    <string name="device_perm_draw_over_other_apps">NDSMD, ekran üzerinde küçük bir kayan arayüz göstermek için "Diğer uygulamaların üzerinde gösterme" iznini kullanır. Bu arayüz, izlenen reel sayısını ve harcanan zamanı takip ederek kullanıcıların kullanımlarını gerçek zamanlı olarak daha fazla fark etmelerine yardımcı olur.</string>
     <string name="show_time_elapsed_on_phone">Telefonda geçen süreyi göster</string>
     <string name="calculate_how_many_reels_tiktok_short_videos_you_scroll_per_day">Günde kaç adet reel/tiktok/kısa video kaydırdığınızı hesapla</string>
     <string name="plan_a_robbery">Bir soygun planla</string>
     <string name="please_provide_display_over_other_apps_permission_to_access_this_feature">Bu özelliğe erişmek için lütfen diğer uygulamaların üzerinde gösterme iznini verin</string>
-    <string name="find_digipaws_and_press_enable">Digipaws\'ı bulun ve etkinleştir\'e basın</string>
+    <string name="find_ndsmd_and_press_enable">NDSMD\'ı bulun ve etkinleştir\'e basın</string>
     <string name="discard_changes">Değişiklikler Silinsin mi?</string>
     <string name="are_you_sure_you_want_to_discard_all_changes_and_exit">Tüm değişiklikleri silip çıkmak istediğinizden emin misiniz?</string>
     <string name="yes">Evet</string>

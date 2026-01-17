@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">abtpapelD</string>
+    <string name="app_name" translatable="false">NDSMD</string>
     <string name="launcher_options">Launcher Options</string>
     <string name="focus_mode">专注模式</string>
     <string name="app_blocker">阻止使用</string>
@@ -9,7 +9,7 @@
     <string name="usage_tracker">时间追踪(BETA)</string>
     <string name="disabled">未启用</string>
     <string name="select_pinned_apps">Select pinned apps</string>
-    <string name="warning_launcher_settings">Set Digipaws as the default launcher to access this option</string>
+    <string name="warning_launcher_settings">Set NDSMD as the default launcher to access this option</string>
     <string name="select_blocked_apps">选择阻止应用</string>
     <string name="start_focus_mode">开启专注</string>
     <string name="warning_general_settings">请先启用General Accessibility无障碍功能</string>
@@ -65,38 +65,38 @@
 
     <string name="app_icon">应用图标</string>
     <string name="accessibility_permission_app_blocker">
-        Enabling this would unlock the following in DigiPaws:\n1. App Blocking\n2, Focus Mode \n\n
-        DigiPaws needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.
-        This lets DigiPaws block those features for you based on your preferences, helping you stay focused and reduce screen distractions.\n\n
+        Enabling this would unlock the following in NDSMD:\n1. App Blocking\n2, Focus Mode \n\n
+        NDSMD needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.
+        This lets NDSMD block those features for you based on your preferences, helping you stay focused and reduce screen distractions.\n\n
         Rest assured, all accessibility data stays securely on your device—we never share or transmit your data, ensuring your privacy is always protected.
         \n\n
     </string>
     <string name="accessibility_permission_view_blocker">
-        Enabling this would unlock the following in DigiPaws:\n1. View Blocking\n2. Block Instagram reels,Tikok and Youtube shorts\n\n
-        DigiPaws needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.
-        This lets DigiPaws block those features for you based on your preferences, helping you stay focused and reduce screen distractions.\n\n
+        Enabling this would unlock the following in NDSMD:\n1. View Blocking\n2. Block Instagram reels,Tikok and Youtube shorts\n\n
+        NDSMD needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.
+        This lets NDSMD block those features for you based on your preferences, helping you stay focused and reduce screen distractions.\n\n
         Rest assured, all accessibility data stays securely on your device—we never share or transmit your data, ensuring your privacy is always protected.
         \n\n
     </string>
     <string name="accessibility_permission_usage_tracker">
         THIS FEATURE REQUIRES DISPLAY OVER OTHER APPS (DRAW OVER OTHER APPS) PERMISSION TO WORK. PLEASE ENABLE IT FIRST AND THEN ENABLE THIS. RESTART IF SERVICE MALFUNCTIONS.\n\n
 
-        Enabling this would unlock the following in DigiPaws:\n1. Count number of reels/tiktoks scrolled\n2. A floating overlay that shows time elapsed\n\n
-        DigiPaws needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.
-        This lets DigiPaws block those features for you based on your preferences, helping you stay focused and reduce screen distractions.\n\n
+        Enabling this would unlock the following in NDSMD:\n1. Count number of reels/tiktoks scrolled\n2. A floating overlay that shows time elapsed\n\n
+        NDSMD needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.
+        This lets NDSMD block those features for you based on your preferences, helping you stay focused and reduce screen distractions.\n\n
         Rest assured, all accessibility data stays securely on your device—we never share or transmit your data, ensuring your privacy is always protected.
         \n\n
     </string>
     <string name="accessibility_permission_keyword_blocker">
-        Enabling this would unlock the following in DigiPaws:\n1. Block custom keywords\n2. Block content like adult material\n\n
-        DigiPaws needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.
-        This lets DigiPaws block those features for you based on your preferences, helping you stay focused and reduce screen distractions.\n\n
+        Enabling this would unlock the following in NDSMD:\n1. Block custom keywords\n2. Block content like adult material\n\n
+        NDSMD needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.
+        This lets NDSMD block those features for you based on your preferences, helping you stay focused and reduce screen distractions.\n\n
         Rest assured, all accessibility data stays securely on your device—we never share or transmit your data, ensuring your privacy is always protected.
         \n\n
     </string>
 
-    <string name="accessibility_permission_general_features">"         Enabling this would unlock the following in DigiPaws: 1. Anti-Uninstall (Setup required to run)           DigiPaws needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.         This lets DigiPaws block those features for you based on your preferences, helendping you stay focused and reduce screen distractions.           Rest assured, all accessibility data stays securely on your device—we never share or transmit your data, ensuring your privacy is always protected.                "</string>
-    <string name="admin_permission_desc">Digipaws 防卸载l</string>
+    <string name="accessibility_permission_general_features">"         Enabling this would unlock the following in NDSMD: 1. Anti-Uninstall (Setup required to run)           NDSMD needs access to accessibility data to know when you open a specific feature within an app, like a social media feed or a game.         This lets NDSMD block those features for you based on your preferences, helendping you stay focused and reduce screen distractions.           Rest assured, all accessibility data stays securely on your device—we never share or transmit your data, ensuring your privacy is always protected.                "</string>
+    <string name="admin_permission_desc">NDSMD 防卸载l</string>
     <string name="title">Title</string>
     <string name="close">关闭</string>
     <string name="proceed">继续</string>
@@ -139,23 +139,23 @@
     <string name="from">From</string>
     <string name="end">End</string>
     <string name="accept">接受</string>
-    <string name="accessibility_perm_desc">DigiPaws 使用“辅助功能”权限来提供应用监控和使用情况追踪等功能，以提升您的体验。此权限允许 DigiPaws 检测应用活动并帮助有效管理设备使用情况。请放心，所有数据均在您的设备本地处理，绝不会发送到任何服务器或第三方。您的隐私和数据安全是我们的首要任务。点击“接受”即表示您确认并同意上述条款。</string>
+    <string name="accessibility_perm_desc">NDSMD 使用“辅助功能”权限来提供应用监控和使用情况追踪等功能，以提升您的体验。此权限允许 NDSMD 检测应用活动并帮助有效管理设备使用情况。请放心，所有数据均在您的设备本地处理，绝不会发送到任何服务器或第三方。您的隐私和数据安全是我们的首要任务。点击“接受”即表示您确认并同意上述条款。</string>
     <string name="reject">Reject</string>
     <string name="peel_the_onions">Peel the onions</string>
     <string name="fix_your_life">Fix your life</string>
     <string name="perform_actions_like_a_back_press">Perform actions like a back press</string>
     <string name="read_content_on_screen">Read content on screen</string>
-    <string name="this_will_allow_digipaws_to">This will allow digipaws to:</string>
+    <string name="this_will_allow_ndsmd_to">This will allow ndsmd to:</string>
     <string name="enable_2">"Enable %1$s"</string>
-    <string name="device_admin_perm">DigiPaws 使用设备管理员权限来增强安全性，并在特定时间段内阻止卸载 digipaws。所有数据都将安全地存储在您的设备上，绝不会与外部共享。</string>
+    <string name="device_admin_perm">NDSMD 使用设备管理员权限来增强安全性，并在特定时间段内阻止卸载 ndsmd。所有数据都将安全地存储在您的设备上，绝不会与外部共享。</string>
     <string name="prevent_uninstallation_attempts_until_a_set_condition_is_met">Prevent uninstallation attempts until a set condition is met</string>
 
-    <string name="device_perm_draw_over_other_apps">DigiPaws 使用悬浮窗权限，在屏幕上显示一个小型叠加层。此叠加层会跟踪用户观看的短视频数量和使用时间。</string>
+    <string name="device_perm_draw_over_other_apps">NDSMD 使用悬浮窗权限，在屏幕上显示一个小型叠加层。此叠加层会跟踪用户观看的短视频数量和使用时间。</string>
     <string name="show_time_elapsed_on_phone">Show time elapsed on phone</string>
     <string name="calculate_how_many_reels_tiktok_short_videos_you_scroll_per_day">计算每日平均短视频数量</string>
     <string name="plan_a_robbery">Plan a robbery</string>
     <string name="please_provide_display_over_other_apps_permission_to_access_this_feature">Please provide display over other apps permission to access this feature</string>
-    <string name="find_digipaws_and_press_enable">找到 Digipaws 并启用</string>
+    <string name="find_ndsmd_and_press_enable">找到 NDSMD 并启用</string>
     <string name="discard_changes">Discard Changes?</string>
     <string name="are_you_sure_you_want_to_discard_all_changes_and_exit">不保存并返回?</string>
     <string name="yes">是</string>

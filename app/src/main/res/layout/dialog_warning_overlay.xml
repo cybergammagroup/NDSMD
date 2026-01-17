@@ -30,7 +30,7 @@
         android:textStyle="bold"
         tools:text="@string/jesus_wait_you" />
 
-    <nethical.digipaws.views.HorizontalNumberPicker
+    <cybergammagroup.ndsmd.views.HorizontalNumberPicker
         android:id="@+id/mins_picker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         android:gravity="center"
         android:visibility="gone">
 
-    </nethical.digipaws.views.HorizontalNumberPicker>
+    </cybergammagroup.ndsmd.views.HorizontalNumberPicker>
 
     <TextView
         android:id="@+id/proceed_seconds"

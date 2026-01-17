@@ -13,27 +13,27 @@
         tools:ignore="ProtectedPermissions" />
 <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
     <application
-        android:name=".Digipaws"
+        android:name=".NDSMD"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DigiPaws"
+        android:theme="@style/Theme.NDSMD"
         tools:targetApi="34">
         <activity
             android:name=".ui.activity.ShortcutActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.Digipaws.TransparentDialog"
+            android:theme="@style/Theme.NDSMD.TransparentDialog"
             android:exported="false" />
         <activity
             android:name=".ui.activity.WarningActivity"
             android:excludeFromRecents="true"
             android:exported="false"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.Digipaws.TransparentDialog" />
+            android:theme="@style/Theme.NDSMD.TransparentDialog" />
         <activity
             android:name=".ui.activity.FragmentActivity"
             android:exported="false" />
@@ -67,7 +67,7 @@
         <service
             android:name=".services.ViewBlockerService"
             android:exported="true"
-            android:label="View Blocker"
+            android:label="@string/view_blocker_accessibility"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -80,7 +80,7 @@
         <service
             android:name=".services.KeywordBlockerService"
             android:exported="true"
-            android:label="Keyword Blocker"
+            android:label="@string/keyword_blocker_accessibility"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -93,7 +93,7 @@
         <service
             android:name=".services.AppBlockerService"
             android:exported="true"
-            android:label="App Blocker"
+            android:label="@string/app_blocker_accessibility"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -106,7 +106,7 @@
         <service
             android:name=".services.UsageTrackingService"
             android:exported="true"
-            android:label="Usage Tracker"
+            android:label="@string/usage_tracker_accessibility"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -119,7 +119,7 @@
         <service
             android:name=".services.GeneralFeaturesService"
             android:exported="true"
-            android:label="General Features"
+            android:label="@string/general_features_accessibility"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -169,7 +169,7 @@
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="nethical.digipaws.reels.WIDGET_REFRESH" />
+                <action android:name="cybergammagroup.ndsmd.reels.WIDGET_REFRESH" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
@@ -182,7 +182,7 @@
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="nethical.digipaws.screentime.WIDGET_REFRESH" />
+                <action android:name="cybergammagroup.ndsmd.screentime.WIDGET_REFRESH" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"

@@ -60,7 +60,7 @@
                 android:gravity="center"
                 android:letterSpacing="0.02"
                 android:lineSpacingMultiplier="1.2"
-                android:text="DigiPaws needs Accessibility permissions to help you track your screen time. The setup process varies based on how you installed the app."
+                android:text="ndsmd needs Accessibility permissions to help you track your screen time. The setup process varies based on how you installed the app."
                 android:textColor="?attr/colorOnSurfaceVariant" />
 
             <com.google.android.material.card.MaterialCardView
@@ -165,7 +165,7 @@
                         android:layout_marginTop="12dp"
                         android:letterSpacing="0.02"
                         android:lineSpacingMultiplier="1.2"
-                        android:text="If you installed from an APK, follow these steps:\n\n1️⃣ Open Settings → Apps → DigiPaws\n\n2️⃣ Tap Permissions → Special App Access → Accessibility → Enable DigiPaws\n\n3️⃣ Return to DigiPaws App Info → Scroll down → Tap Restricted Settings → Allow\n\n💡 Pro tip: Install via F-Droid app for a smoother setup! 🚀"
+                        android:text="If you installed from an APK, follow these steps:\n\n1️⃣ Open Settings → Apps → NDSMD\n\n2️⃣ Tap Permissions → Special App Access → Accessibility → Enable NDSMD\n\n3️⃣ Return to NDSMD App Info → Scroll down → Tap Restricted Settings → Allow\n\n💡 Pro tip: Install via F-Droid app for a smoother setup! 🚀"
                         android:textColor="?attr/colorOnSurfaceVariant" />
 
                 </LinearLayout>

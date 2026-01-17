@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DigiPaws"
+rootProject.name = "NDSMD"
 include(":app")
  

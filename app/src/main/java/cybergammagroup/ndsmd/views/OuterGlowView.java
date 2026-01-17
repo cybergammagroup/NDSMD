@@ -1,0 +1,16 @@
+package cybergammagroup.ndsmd.views;
+
+import android.content.Context;
+import android.graphics.BitmapFactory;
+import android.util.AttributeSet;
+
+import androidx.annotation.Nullable;
+
+public class OuterGlowView extends GlowView {
+
+    public OuterGlowView(Context context, @Nullable AttributeSet attrs) {
+        super(context, attrs);
+        this.bitmap = BitmapFactory.decodeResource(getResources(), cybergammagroup.ndsmd.R.drawable.outer_glow);
+        init();
+    }
+}

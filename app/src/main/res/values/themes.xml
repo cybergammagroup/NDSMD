@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.DigiPaws" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.NDSMD" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
@@ -49,9 +49,9 @@
         <item name="colorSurfaceContainerHighest">@color/md_theme_surfaceContainerHighest</item>
     </style>
 
-    <style name="Theme.DigiPaws" parent="Base.Theme.DigiPaws" />
+    <style name="Theme.NDSMD" parent="Base.Theme.NDSMD" />
 
-    <style name="Theme.Digipaws.TransparentDialog" parent="Theme.Material3.DayNight">
+    <style name="Theme.NDSMD.TransparentDialog" parent="Theme.Material3.DayNight">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>

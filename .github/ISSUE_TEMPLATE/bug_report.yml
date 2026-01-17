@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a reproducible bug or unexpected behavior in DigiPaws.
+description: Report a reproducible bug or unexpected behavior in NDSMD.
 title: "[Bug]: "
 labels: ["bug"]
 assignees: []
@@ -43,8 +43,8 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: Device model, OS version, DigiPaws version.
-      placeholder: e.g., OnePlus 9, Android 14, DigiPaws 1.2.1
+      description: Device model, OS version, NDSMD version.
+      placeholder: e.g., OnePlus 9, Android 14, NDSMD 1.2.1
 
   - type: textarea
     id: additional

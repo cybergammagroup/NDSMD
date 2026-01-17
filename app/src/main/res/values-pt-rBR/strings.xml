@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatetable="false">abtpapelD</string>
+    <string name="app_name" translatetable="false">NDSMD</string>
     <string name="launcher_options">Opções do iniciador</string>
     <string name="focus_mode">Modo de foco</string>
     <string name="app_blocker">Bloqueador de aplicativos</string>
@@ -9,7 +9,7 @@
     <string name="usage_tracker">Rastreador de uso (BETA)</string>
     <string name="disabled">Desativado</string>
     <string name="select_pinned_apps">Selecionar aplicativos fixados</string>
-    <string name="warning_launcher_settings">Defina o Digipaws como o inicializador padrão para acessar esta opção</string>
+    <string name="warning_launcher_settings">Defina o NDSMD como o inicializador padrão para acessar esta opção</string>
     <string name="select_blocked_apps">Selecionar aplicativos bloqueados</string>
     <string name="start_focus_mode">Iniciar modo de foco</string>
     <string name="warning_general_settings">Ative o serviço de acessibilidade geral para acessar esta opção</string>
@@ -60,44 +60,44 @@
     <string name="app_icon">app_icon</string>
 
     <string name="accessibility_permission_app_blocker">
-        Ativar isso desbloquearia o seguinte no DigiPaws:\n1. Bloqueio de apps\n\n
-        DigiPaws precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
-        Isso permite que o DigiPaws bloqueie esses recursos com base nas suas preferências, ajudando você a manter o foco e a reduzir as distrações na tela.\n\n
+        Ativar isso desbloquearia o seguinte no NDSMD:\n1. Bloqueio de apps\n\n
+        NDSMD precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
+        Isso permite que o NDSMD bloqueie esses recursos com base nas suas preferências, ajudando você a manter o foco e a reduzir as distrações na tela.\n\n
         Fique tranquilo, pois todos os dados de acessibilidade permanecem seguros no seu dispositivo. Nunca compartilhamos ou transmitimos seus dados, garantindo que sua privacidade esteja sempre protegida.
         \n\n
     </string>
     <string name="accessibility_permission_view_blocker">
-        Ativar isso desbloquearia o seguinte no DigiPaws:\n1. Ver bloqueio\n2. Bloquear Reels do Instagram, curtas do Tikok e do YouTube\n\n
-        DigiPaws precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
-        Isso permite que o DigiPaws bloqueie esses recursos com base nas suas preferências, ajudando você a manter o foco e a reduzir as distrações na tela.\n\n
+        Ativar isso desbloquearia o seguinte no NDSMD:\n1. Ver bloqueio\n2. Bloquear Reels do Instagram, curtas do Tikok e do YouTube\n\n
+        NDSMD precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
+        Isso permite que o NDSMD bloqueie esses recursos com base nas suas preferências, ajudando você a manter o foco e a reduzir as distrações na tela.\n\n
         Fique tranquilo, pois todos os dados de acessibilidade permanecem seguros no seu dispositivo. Nunca compartilhamos ou transmitimos seus dados, garantindo que sua privacidade esteja sempre protegida.
         \n\n
     </string>
     <string name="accessibility_permission_usage_tracker">
         ESTE RECURSO REQUER PERMISSÃO DE EXIBIÇÃO DE OUTROS APLICATIVOS (DRAW OVER OTHER APPS) PARA FUNCIONAR. ATIVE-O PRIMEIRO E DEPOIS ATIVE ESTE. REINICIE SE O SERVIÇO FALTAR.\n\n
 
-Ativar isso desbloquearia o seguinte no DigiPaws:\n1. Contar o número de reels/tiktoks rolados\n2. Uma sobreposição flutuante que mostra o tempo decorrido\n\n
-        DigiPaws precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
-        Isso permite que o DigiPaws bloqueie esses recursos com base nas suas preferências, ajudando você a manter o foco e a reduzir as distrações na tela.\n\n
+Ativar isso desbloquearia o seguinte no NDSMD:\n1. Contar o número de reels/tiktoks rolados\n2. Uma sobreposição flutuante que mostra o tempo decorrido\n\n
+        NDSMD precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
+        Isso permite que o NDSMD bloqueie esses recursos com base nas suas preferências, ajudando você a manter o foco e a reduzir as distrações na tela.\n\n
         Fique tranquilo, pois todos os dados de acessibilidade permanecem seguros no seu dispositivo. Nunca compartilhamos ou transmitimos seus dados, garantindo que sua privacidade esteja sempre protegida.
         \n\n
     </string>
     <string name="accessibility_permission_keyword_blocker">
-        Ativar isso desbloquearia o seguinte no DigiPaws:\n1. Bloqueie palavras-chave personalizadas\n2. Bloquear conteúdo como material adulto\n\n
-        DigiPaws precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
-        Isso permite que o DigiPaws bloqueie esses recursos com base nas suas preferências, ajudando você a manter o foco e a reduzir as distrações na tela.\n\n
+        Ativar isso desbloquearia o seguinte no NDSMD:\n1. Bloqueie palavras-chave personalizadas\n2. Bloquear conteúdo como material adulto\n\n
+        NDSMD precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
+        Isso permite que o NDSMD bloqueie esses recursos com base nas suas preferências, ajudando você a manter o foco e a reduzir as distrações na tela.\n\n
         Fique tranquilo, pois todos os dados de acessibilidade permanecem seguros no seu dispositivo. Nunca compartilhamos ou transmitimos seus dados, garantindo que sua privacidade esteja sempre protegida.
         \n\n
     </string>
 
     <string name="accessibility_permission_general_features">
-        Ativar isso desbloquearia o seguinte no DigiPaws:\n1. Modo de foco: bloqueie a distração até um determinado período de tempo.\n2. Anti-desinstalação (configuração necessária para execução)\n\n
-        DigiPaws precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
-        Isso permite que o DigiPaws bloqueie esses recursos para você com base nas suas preferências, ajudando você a manter o foco e reduzir as distrações na tela.\n\n
+        Ativar isso desbloquearia o seguinte no NDSMD:\n1. Modo de foco: bloqueie a distração até um determinado período de tempo.\n2. Anti-desinstalação (configuração necessária para execução)\n\n
+        NDSMD precisa de acesso a dados de acessibilidade para saber quando você abre um recurso específico em um aplicativo, como um feed de mídia social ou um jogo.
+        Isso permite que o NDSMD bloqueie esses recursos para você com base nas suas preferências, ajudando você a manter o foco e reduzir as distrações na tela.\n\n
         Fique tranquilo, pois todos os dados de acessibilidade permanecem seguros no seu dispositivo. Nunca compartilhamos ou transmitimos seus dados, garantindo que sua privacidade esteja sempre protegida.
         \n\n
     </string>
-    <string name="admin_permission_desc">Anti-Desinstalação Digipaws</string>
+    <string name="admin_permission_desc">Anti-Desinstalação NDSMD</string>
     <string name="title">Título</string>
     <string name="close">Fechar</string>
     <string name="proceed">Continuar</string>
@@ -140,23 +140,23 @@ Ativar isso desbloquearia o seguinte no DigiPaws:\n1. Contar o número de reels/
     <string name="from">De</string>
     <string name="end">Fim</string>
     <string name="accept">Aceitar</string>
-    <string name="accessibility_perm_desc">O DigiPaws usa a permissão Acessibilidade para fornecer recursos como monitoramento de aplicativos e rastreamento de uso para aprimorar sua experiência. Essa permissão permite que o DigiPaws detecte atividades de aplicativos e ajude a gerenciar o uso do dispositivo de forma eficaz. Fique tranquilo, todos os dados são processados ​​localmente no seu dispositivo e nunca são enviados a nenhum servidor ou terceiro. Sua privacidade e segurança de dados são nossas principais prioridades. \n \n Ao pressionar Aceitar, você reconhece e concorda com o acima.</string>
+    <string name="accessibility_perm_desc">O NDSMD usa a permissão Acessibilidade para fornecer recursos como monitoramento de aplicativos e rastreamento de uso para aprimorar sua experiência. Essa permissão permite que o NDSMD detecte atividades de aplicativos e ajude a gerenciar o uso do dispositivo de forma eficaz. Fique tranquilo, todos os dados são processados ​​localmente no seu dispositivo e nunca são enviados a nenhum servidor ou terceiro. Sua privacidade e segurança de dados são nossas principais prioridades. \n \n Ao pressionar Aceitar, você reconhece e concorda com o acima.</string>
     <string name="reject">Rejeitar</string>
     <string name="peel_the_onions">Descasque as cebolas</string>
     <string name="fix_your_life">Conserte sua vida</string>
     <string name="perform_actions_like_a_back_press">Realize ações como um back press</string>
     <string name="read_content_on_screen">Ler conteúdo na tela</string>
-    <string name="this_will_allow_digipaws_to">Isso permitirá que o digipaws:</string>
+    <string name="this_will_allow_ndsmd_to">Isso permitirá que o ndsmd:</string>
     <string name="enable_2">"Habilite %1$s"</string>
-    <string name="device_admin_perm">O DigiPaws usa a permissão de Administrador do Dispositivo para aumentar a segurança e bloquear a desinstalação do digipaws até um período específico. Todos os dados permanecem armazenados com segurança no seu dispositivo e nunca são compartilhados externamente.</string>
+    <string name="device_admin_perm">O NDSMD usa a permissão de Administrador do Dispositivo para aumentar a segurança e bloquear a desinstalação do ndsmd até um período específico. Todos os dados permanecem armazenados com segurança no seu dispositivo e nunca são compartilhados externamente.</string>
     <string name="prevent_uninstallation_attempts_until_a_set_condition_is_met">Evita tentativas de desinstalação até que uma condição definida seja atendida</string>
 
-    <string name="device_perm_draw_over_other_apps">O DigiPaws usa a permissão "Exibir sobre outros aplicativos" para mostrar uma pequena sobreposição flutuante na tela. Esta sobreposição rastreia o número de rolos assistidos e o tempo gasto, ajudando os usuários a ficarem mais cientes de seu uso em tempo real.</string>
+    <string name="device_perm_draw_over_other_apps">O NDSMD usa a permissão "Exibir sobre outros aplicativos" para mostrar uma pequena sobreposição flutuante na tela. Esta sobreposição rastreia o número de rolos assistidos e o tempo gasto, ajudando os usuários a ficarem mais cientes de seu uso em tempo real.</string>
     <string name="show_time_elapsed_on_phone">Mostrar o tempo decorrido no telefone</string>
     <string name="calculate_how_many_reels_tiktok_short_videos_you_scroll_per_day">Calcular quantos rolos/tiktok/vídeos curtos você rola por dia</string>
     <string name="plan_a_robbery">Planejar um assalto</string>
     <string name="please_provide_display_over_other_apps_permission_to_access_this_feature">Forneça permissão de exibição sobre outros aplicativos para acessar este recurso</string>
-    <string name="find_digipaws_and_press_enable">Encontrar Digipaws e pressionar habilitar</string>
+    <string name="find_ndsmd_and_press_enable">Encontrar NDSMD e pressionar habilitar</string>
     <string name="discard_changes">Descartar alterações?</string>
     <string name="are_you_sure_you_want_to_discard_all_changes_and_exit">Tem certeza de que deseja descartar todas as alterações e sair?</string>
     <string name="yes">Sim</string>

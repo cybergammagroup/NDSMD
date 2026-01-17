@@ -1,4 +1,4 @@
-Tired of losing hours to endless scrolling and Screen Time? Meet DigiPaws – the ultimate app to cure screen addiction!
+Tired of losing hours to endless scrolling and Screen Time? Meet NDSMD – the ultimate app to cure screen addiction!
 
 
 <b>Features</b>
@@ -23,7 +23,7 @@ Tired of losing hours to endless scrolling and Screen Time? Meet DigiPaws – th
 - <b>Privacy Oriented</b> : Everything stays secure on your local device without the need of INTERNET permission
 <b>Usage</b>
 
-1. Launch DigiPaws on your Android device.
+1. Launch NDSMD on your Android device.
 2. Provide all necessary permissions like Accessibility service, Notification, Draw over other apps etc
 3. On Android 13+ devices, you need to additionally allow restricted settings before enabling the accessibility permission. Watch a tutorial here -> https://youtu.be/91B72lEpcqc?si=PCKKUSwM1aLdELqJ
 4. It is highly recommended to download the app directly from f-droid rather than a .apk from github or f-droid website

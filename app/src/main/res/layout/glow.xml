@@ -13,20 +13,20 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:fel_size_top="300dp"
             app:fel_edge="top">
-                <nethical.digipaws.views.InnerGlowView
+                <cybergammagroup.ndsmd.views.InnerGlowView
                     android:id="@+id/innerGlow"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
                     android:layout_gravity="bottom"
                     android:background="@android:color/transparent">
-                </nethical.digipaws.views.InnerGlowView>
-                <nethical.digipaws.views.OuterGlowView
+                </cybergammagroup.ndsmd.views.InnerGlowView>
+                <cybergammagroup.ndsmd.views.OuterGlowView
                     android:id="@+id/outerGlow"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
                     android:layout_gravity="bottom"
                     android:background="@android:color/transparent">
-                </nethical.digipaws.views.OuterGlowView>
+                </cybergammagroup.ndsmd.views.OuterGlowView>
         </com.bosphere.fadingedgelayout.FadingEdgeLayout>
 
 

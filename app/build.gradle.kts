@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "nethical.digipaws"
+    namespace = "cybergammagroup.ndsmd"
     compileSdk = 34
     flavorDimensions += "version"
 
     defaultConfig {
-        applicationId = "nethical.digipaws"
+        applicationId = "cybergammagroup.ndsmd"
         minSdk = 26
         targetSdk = 34
         versionCode = 23

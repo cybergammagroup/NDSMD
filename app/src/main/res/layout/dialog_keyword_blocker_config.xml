@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Redirection works only on Chrome, Brave, Firefox, and Opera. If you check the box above, the keyword blocker will function across all apps, but redirection will be disabled in unsupported apps, and DigiPaws will press the home button when a blocked keyword is detected." />
+        android:text="Redirection works only on Chrome, Brave, Firefox, and Opera. If you check the box above, the keyword blocker will function across all apps, but redirection will be disabled in unsupported apps, and NDSMD will press the home button when a blocked keyword is detected." />
 
     <Button
         android:id="@+id/ignored_kb_apps"

@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLines="1"
-                tools:text="com.nethical.digipaws, com.android.settings, com.asjeblieaft, com.trash.app,com.s,sd,d,sds,sdsds,sdgshdgsgdgsdgsjd" />
+                tools:text="com.cybergammagroup.ndsmd, com.android.settings, com.asjeblieaft, com.trash.app,com.s,sd,d,sds,sdsds,sdgshdgsgdgsdgsjd" />
         </LinearLayout>
 
     </LinearLayout>

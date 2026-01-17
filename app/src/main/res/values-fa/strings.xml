@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">abtpapelD</string>
+    <string name="app_name" translatable="false">NDSMD</string>
     <string name="launcher_options">گزینه‌های لانچر</string>
     <string name="focus_mode">حالت تمرکز</string>
     <string name="app_blocker">مسدودکننده برنامه</string>
@@ -147,7 +147,7 @@
     <string name="fix_your_life">زندگی خود را درست کنید</string>
     <string name="perform_actions_like_a_back_press">انجام اقداماتی مانند فشار دادن دکمه بازگشت</string>
     <string name="read_content_on_screen">خواندن محتوا روی صفحه</string>
-    <string name="this_will_allow_digipaws_to">این به دیجی‌پاز اجازه می‌دهد تا:</string>
+    <string name="this_will_allow_ndsmd_to">این به دیجی‌پاز اجازه می‌دهد تا:</string>
     <string name="enable_2">"فعال کردن %1$s"</string>
     <string name="device_admin_perm">دیجی‌پاز از مجوز مدیریت دستگاه برای افزایش امنیت و مسدود کردن پاک‌شدن دیجی‌پاز تا یک دوره مشخص استفاده می‌کند. تمام داده‌ها به‌طور ایمن روی دستگاه شما ذخیره می‌شوند و هرگز به‌صورت خارجی به اشتراک گذاشته نمی‌شوند.</string>
     <string name="prevent_uninstallation_attempts_until_a_set_condition_is_met">جلوگیری از تلاش‌های پاک‌شدن تا زمانی که یک شرط مشخص برآورده شود</string>
@@ -157,5 +157,5 @@
     <string name="calculate_how_many_reels_tiktok_short_videos_you_scroll_per_day">محاسبه تعداد ریل‌ها/تیک‌تاک/ویدیوهای کوتاه که در روز پیمایش می‌کنید</string>
     <string name="plan_a_robbery">برنامه‌ریزی یک سرقت</string>
     <string name="please_provide_display_over_other_apps_permission_to_access_this_feature">لطفاً مجوز نمایش روی سایر برنامه‌ها را برای دسترسی به این ویژگی فراهم کنید</string>
-    <string name="find_digipaws_and_press_enable">دیجی‌پاز را پیدا کنید و روی فعال‌سازی فشار دهید</string>
+    <string name="find_ndsmd_and_press_enable">دیجی‌پاز را پیدا کنید و روی فعال‌سازی فشار دهید</string>
 </resources>
