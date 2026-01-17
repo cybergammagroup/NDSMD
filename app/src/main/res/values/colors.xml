@@ -141,7 +141,22 @@
     <color name="md_theme_surfaceContainer_highContrast">#E9EFEC</color>
     <color name="md_theme_surfaceContainerHigh_highContrast">#E3EAE6</color>
     <color name="md_theme_surfaceContainerHighest_highContrast">#DEE4E1</color>
-
+    <color name="colorPrimary">#670e36</color>
+    <color name="colorPrimaryDark">#470925</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="colorAccentLight">#FFEBAC</color>
+    <color name="blankSurface">#FFFFFF</color>
+    <color name="statusBarColour">#470925</color>
+    <color name="activeTabColor">#9c27b0</color>
+    <color name="inactiveTabColor">#ECECEC</color>
+    <color name="error">#DC4545</color>
+    <color name="success">#45DC6B</color>
+    <color name="selectedTint">#FFEBAC</color>
+    <color name="gradientTop">#470925</color>
+    <color name="gradientMid">#670e36</color>
+    <color name="gradientBottom">#ffc107</color>
+    <color name="themeCompatBackground">#FFFFFF</color>
+    <color name="themeCompatTextColour">#222222</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="error_color">#F44336</color>

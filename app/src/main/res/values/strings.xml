@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">DigiPaws</string>
+    <string name="app_name" translatable="false">abtpapelD</string>
     <string name="launcher_options">Launcher Options</string>
     <string name="focus_mode">Focus Mode</string>
     <string name="app_blocker">App Blocker</string>
@@ -48,7 +48,7 @@
     <string name="block_adult_keywords">Block Adult Keywords</string>
     <string name="password">Password</string>
     <string name="specify_cooldown_interval_in_minutes">Specify cooldown interval in minutes</string>
-    <string name="warning_message">Warning message</string>
+    <string name="warning_message">Your warning message</string>
     <string name="allow_viewing_instagram_reels_sent_in_instagram_inbox">Allow viewing instagram reels sent in Instagram inbox</string>
     <string name="allow_opening_the_first_reel_in_feed">Allow opening the first reel in feed</string>
     <string name="in_warning_changeable_cooldown">in-warning changeable cooldown</string>
@@ -127,7 +127,7 @@
     <string name="please_select_a_few_apps">Please select a few apps</string>
     <string name="cheat_timings">%1$d:%2$d to %3$d:%4$d</string>
     <string name="configure_warning_screen">Warning Screen</string>
-    <string name="proceed_in">Please wait %1$d seconds before pressing proceed</string>
+    <string name="proceed_in">Please wait %1$d seconds, by praying, before pressing proceed</string>
     <string name="to">To</string>
     <string name="please_specify_time">Please specify time</string>
     <string name="from">From</string>
@@ -172,4 +172,10 @@
     <string name="join_telegram">Join Telegram</string>
     <string name="guide">Guide</string>
     <string name="go_back">Go back</string>
+    <string name="enable_glow">Enable Glow</string>
+    <string name="time_animation_precision">Time to reach max of red animation in minutes.</string>
+    <string name="jesus_wait_you">Jesus is waiting for YOU!\nDon\'t let the devil distance you from Jesus and enslave you through screen addiction.</string>
+    <string name="credits">Credits</string>
+    <string name="credits_text">App</string>
+    <string name="open_credit">Open DigiPaws credits</string>
 </resources>

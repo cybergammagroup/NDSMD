@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name" translatable="false">DigiPaws</string>
+	<string name="app_name" translatable="false">abtpapelD</string>
 	<string name="launcher_options">Options du lanceur</string>
 	<string name="focus_mode">Mode Focus</string>
 	<string name="app_blocker">Bloqeur d\'applications</string>
@@ -46,7 +46,7 @@
 	<string name="block_adult_keywords">Bloquer des mots clés Adultes</string>
 	<string name="password">Mot de passe</string>
 	<string name="specify_cooldown_interval_in_minutes">Specifiez l\'intervalle de temps de recharge en minutes</string>
-	<string name="warning_message">Message d\'avertissement</string>
+	<string name="warning_message">Ton message d\'avertissement</string>
 	<string name="allow_viewing_instagram_reels_sent_in_instagram_inbox">Autoriser la vue des reels Instagram envoyés dans la messagerie</string>
 	<string name="allow_opening_the_first_reel_in_feed">Autoriser l\'ouverture du premier reel dans le flux</string>
 	<string name="in_warning_changeable_cooldown">temps de recharge modifiable en cas d\'avertissement</string>
@@ -136,7 +136,7 @@
 	<string name="please_select_a_few_apps">S\'il-vous-plaît, sélectionnez un peu d\'applications</string>
 	<string name="cheat_timings">%1$d:%2$d à %3$d:%4$d</string>
 	<string name="configure_warning_screen">Écran d\'avertissement</string>
-	<string name="proceed_in">S\'il-vous-plaît, attendez %1$d secondes avant d\'appuyer sur procéder</string>
+	<string name="proceed_in">S\'il-vous-plaît, attendez %1$d secondes, en priant, avant d\'appuyer sur procéder</string>
 	<string name="to">À</string>
 	<string name="please_specify_time">S\'il vous plaît, spécifiez le temps</string>
 	<string name="from">De</string>

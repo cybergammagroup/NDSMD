@@ -485,7 +485,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnCredits.setOnClickListener {
-            openUrl("https://digipaws.life/credits")
+            //openUrl("https://digipaws.life/credits")
+            MaterialAlertDialogBuilder(this)
+                .setTitle(getString(R.string.credits))
+                .setMessage(getString(R.string.credits_text))
+                .setNeutralButton(getString(R.string.open_credit), { dialog, _ ->
+                    openUrl("https://github.com/nethical6/digipaws")})
+                .setPositiveButton(getString(R.string.ok), null)
+                .show()
+
         }
         binding.btnBackup.setOnClickListener {
             ZipUtils.showDirectoryPicker(directoryPicker)

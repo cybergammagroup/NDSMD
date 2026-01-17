@@ -142,6 +142,17 @@
     <color name="md_theme_surfaceContainer_highContrast">#1B211F</color>
     <color name="md_theme_surfaceContainerHigh_highContrast">#252B2A</color>
     <color name="md_theme_surfaceContainerHighest_highContrast">#303634</color>
+    <color name="colorPrimary">#ffc107</color>
+    <color name="colorPrimaryDark">#C1991A</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="colorAccentLight">#FFEBAC</color>
+    <color name="selectedTint">#44FFEBAC</color>
+    <color name="statusBarColour">#470925</color>
+    <color name="gradientTop">#470925</color>
+    <color name="gradientMid">#670e36</color>
+    <color name="gradientBottom">#981550</color>
+    <color name="themeCompatBackground">#393939</color>
+    <color name="themeCompatTextColour">#EEEEEE</color>
 
 
 

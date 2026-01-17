@@ -10,12 +10,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.WindowManager
 import android.view.WindowManager.LayoutParams
+import nethical.digipaws.databinding.GlowBinding
 import nethical.digipaws.databinding.OverlayUsageStatBinding
 
 class UsageStatOverlayManager(private val context: Context) {
 
     private var overlayView: View? = null
     var binding: OverlayUsageStatBinding? = null
+    var glowView: GlowBinding? = null
     var isOverlayVisible = false
     private var windowManager: WindowManager? = null
 
@@ -26,6 +28,13 @@ class UsageStatOverlayManager(private val context: Context) {
         if (overlayView != null || isOverlayVisible) return
 
         binding = OverlayUsageStatBinding.inflate(LayoutInflater.from(context))
+        glowView = binding?.glowView
+        glowView?.innerGlow?.setWillNotDraw(false)
+        glowView?.outerGlow?.setWillNotDraw(false)
+        glowView?.fadingEdge?.setWillNotDraw(false)
+        glowView?.innerGlow?.visibility = View.VISIBLE
+        glowView?.innerGlow?.animate()?.alpha(1.0F)?.setDuration(1000L/2)?.setListener(null);
+
         isOverlayVisible = true
         overlayView = binding?.root
 

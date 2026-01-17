@@ -61,6 +61,9 @@ android {
                 }
             }
         }
+        create("customDebugType"){
+            isDebuggable = true
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -97,5 +100,6 @@ dependencies {
 
     implementation(libs.mpandroidchart)
     implementation(libs.timerangepicker)
+    implementation(libs.fadingedgelayout)
 
 }

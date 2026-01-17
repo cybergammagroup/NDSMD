@@ -28,6 +28,9 @@ class TweakUsageTracker(
             trackerPreferences.getBoolean("is_reel_counter", true)
         dialogConfigurationTracker.cbTimeElapsed.isChecked =
             trackerPreferences.getBoolean("is_time_elapsed", false)
+        dialogConfigurationTracker.cbEnableGlow.isChecked = trackerPreferences.getBoolean("is_glow_enabled",true)
+        dialogConfigurationTracker.txtTimeAnimation.setText(trackerPreferences.getInt("time_animation",5).toString())
+
 
         // Build and display dialog
         return MaterialAlertDialogBuilder(requireContext())
@@ -45,6 +48,15 @@ class TweakUsageTracker(
                         "is_time_elapsed",
                         dialogConfigurationTracker.cbTimeElapsed.isChecked
                     )
+                    putInt(
+                        "time_animation",
+                        dialogConfigurationTracker.txtTimeAnimation.text.toString().toInt()
+                    )
+                    putBoolean(
+                        "is_glow_enabled",
+                        dialogConfigurationTracker.cbEnableGlow.isChecked
+                    )
+                    apply() // Apply changes asynchronously"
                     commit() // Apply changes immediately
                 }
 

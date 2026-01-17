@@ -1,11 +1,13 @@
 package nethical.digipaws.services
 
 import android.accessibilityservice.AccessibilityServiceInfo
+import android.animation.ValueAnimator
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
+import android.graphics.Color
 import android.net.Uri
 import android.os.Build
 import android.os.Handler
@@ -14,15 +16,21 @@ import android.os.PowerManager
 import android.os.SystemClock
 import android.provider.Settings
 import android.util.Log
+import android.util.TypedValue
+import android.view.Display
 import android.view.View
+import android.view.WindowManager
 import android.view.accessibility.AccessibilityEvent
 import android.widget.Toast
 import nethical.digipaws.blockers.ViewBlocker
 import nethical.digipaws.ui.overlay.UsageStatOverlayManager
 import nethical.digipaws.utils.TimeTools
 import java.util.concurrent.TimeUnit
+import kotlin.math.round
 
 class UsageTrackingService : BaseBlockingService() {
+
+    private var glowSwitch: Boolean = false
 
     private var screenOnTime: Long = 0
     private var accumulatedTime: Long = 0
@@ -39,14 +47,20 @@ class UsageTrackingService : BaseBlockingService() {
 
     private var isReelCountToBeDisplayed = true
     private var isTimeElapsedCounterOn = true
+    private var isOverlayEnabled = true
     private var supportsViewScrolled = false
 
     private var displayOverlayApps = hashSetOf("") //show overlay only on these apps
     private var lastScrollTime: Long = 0
+    private var fadingTimeAnimation = 5
+    private var fadingEnabled = true
     private var lastScrollY: Float = 0f
     private var isScrollInProgress = false
     private val SCROLL_DEBOUNCE_TIME = 800L // Increased to 800ms
     private val MIN_SCROLL_DISTANCE = 100f // Minimum distance to consider a new scroll
+    private var colourFilterColour:Int = Color.rgb(50,50,50)
+    private var fadingEdgeLength:Int=300;
+    private var height:Int=0
 
     private var lastEventTimeStamp = 0L
     companion object {
@@ -90,7 +104,7 @@ class UsageTrackingService : BaseBlockingService() {
 
     private val screenReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
-            if (!isTimeElapsedCounterOn) return
+            if (!isOverlayEnabled) return
             when (intent?.action) {
                 Intent.ACTION_SCREEN_ON -> handleScreenOn()
                 Intent.ACTION_SCREEN_OFF -> handleScreenOff()
@@ -159,17 +173,21 @@ class UsageTrackingService : BaseBlockingService() {
 
         isReelCountToBeDisplayed = sp.getBoolean("is_reel_counter",true)
         isTimeElapsedCounterOn = sp.getBoolean("is_time_elapsed", false)
-
+        fadingTimeAnimation = sp.getInt("time_animation",5)
+        fadingEnabled = sp.getBoolean("is_glow_enabled",true)
+        isOverlayEnabled=(isTimeElapsedCounterOn || fadingEnabled)
         displayOverlayApps = savedPreferencesLoader.getOverlayApps().toHashSet()
         if(isReelCountToBeDisplayed){
             displayOverlayApps.addAll(SUPPORTED_TRACKING_APPS)
         }
         if (!isTimeElapsedCounterOn) {
             usageStatOverlayManager.binding?.timeElapsedTxt?.visibility = View.GONE
+        }else {
+            usageStatOverlayManager.binding?.timeElapsedTxt?.visibility = View.VISIBLE
+        }
+        if(!isOverlayEnabled) {
             handleScreenOff()
         }else{
-            usageStatOverlayManager.binding?.timeElapsedTxt?.visibility = View.VISIBLE
-
             // Initialize if the screen is already on
             if ((getSystemService(Context.POWER_SERVICE) as PowerManager).isInteractive) {
                 handleScreenOn()
@@ -193,6 +211,8 @@ class UsageTrackingService : BaseBlockingService() {
     }
 
     private fun startTimeTracking() {
+        val wm: WindowManager = getSystemService(Context.WINDOW_SERVICE) as WindowManager
+        height=wm.defaultDisplay.height
         stopTimeTracking() // Ensure only one tracker runs
         updateRunnable = object : Runnable {
             override fun run() {
@@ -201,6 +221,82 @@ class UsageTrackingService : BaseBlockingService() {
                     val totalTime = accumulatedTime + (currentTime - screenOnTime)
                     usageStatOverlayManager.binding?.timeElapsedTxt?.text =
                         formatElapsedTime(totalTime)
+                    val theTimePercentageNotLimited:Float = (totalTime.toFloat()/(fadingTimeAnimation*60*1000).toFloat()).toFloat()
+                    val theTimePercentage: Float = if (theTimePercentageNotLimited>1.0F) 1.0F else theTimePercentageNotLimited
+                    val theTimePercentageDoubleNotLimited:Float = theTimePercentageNotLimited/2.0F
+                    val theTimePercentageDouble: Float = if (theTimePercentageDoubleNotLimited>1.0F) 1.0F else theTimePercentageDoubleNotLimited
+                    val redColor:Int = 50+ round((205-50)*theTimePercentageDouble).toInt()
+                    usageStatOverlayManager.glowView?.innerGlow?.setHeight(theTimePercentage.toFloat(),height)
+                    usageStatOverlayManager.glowView?.outerGlow?.setHeight(theTimePercentage.toFloat(),height)
+                    var fadingEdgeLengthPx:Int = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,fadingEdgeLength.toFloat(),resources.displayMetrics).toInt()
+                    if(theTimePercentage>0.9){
+                        fadingEdgeLengthPx = (fadingEdgeLengthPx* (1-theTimePercentage)*10).toInt()
+                        usageStatOverlayManager.glowView?.fadingEdge?.setFadeSizes(fadingEdgeLengthPx,0,0,0)
+                    }else if(theTimePercentage<0.1){
+                        fadingEdgeLengthPx = (fadingEdgeLengthPx* theTimePercentage*10).toInt()
+                        usageStatOverlayManager.glowView?.fadingEdge?.setFadeSizes(fadingEdgeLengthPx,0,0,0)
+                    }
+                    usageStatOverlayManager.glowView?.innerGlow?.visibility = View.VISIBLE
+                    usageStatOverlayManager.glowView?.innerGlow?.animate()?.alpha(1.0F)?.setDuration(UPDATE_INTERVAL/2)?.setListener(null);
+                    usageStatOverlayManager.glowView?.outerGlow?.visibility = View.VISIBLE
+                    usageStatOverlayManager.glowView?.outerGlow?.animate()?.alpha(theTimePercentage)?.setDuration(UPDATE_INTERVAL/2)?.setListener(null)
+                    val color: Int = Color.rgb(redColor, 50, 50)
+                    /*if(theTimePercentage==1.0F) {
+                        if (glowSwitch) {
+                            val hsv: FloatArray = FloatArray(3)
+                            Color.colorToHSV(color, hsv)
+                            hsv[2] = 0.8F
+                            val anim: ValueAnimator =
+                                ValueAnimator.ofArgb(color, Color.HSVToColor(hsv));
+                            anim.addUpdateListener {
+                                @Override
+                                fun onAnimationUpdate(animation: ValueAnimator) {
+                                    usageStatOverlayManager.glowView?.innerGlow?.setColour(animation.animatedValue as Int)
+                                    usageStatOverlayManager.glowView?.outerGlow?.setColour(animation.animatedValue as Int)
+                                    usageStatOverlayManager.glowView?.innerGlow?.invalidate()
+                                    usageStatOverlayManager.glowView?.outerGlow?.invalidate()
+                                }
+                            }
+                            anim.duration = (UPDATE_INTERVAL / 2L)
+                            anim.start()
+                            colourFilterColour = color
+                        } else {
+                            val anim: ValueAnimator = ValueAnimator.ofArgb(colourFilterColour, color);
+                            anim.addUpdateListener {
+                                @Override
+                                fun onAnimationUpdate(animation: ValueAnimator) {
+                                    usageStatOverlayManager.glowView?.innerGlow?.setColour(animation.animatedValue as Int)
+                                    usageStatOverlayManager.glowView?.outerGlow?.setColour(animation.animatedValue as Int)
+                                    usageStatOverlayManager.glowView?.innerGlow?.invalidate()
+                                    usageStatOverlayManager.glowView?.outerGlow?.invalidate()
+                                }
+                            }
+                            anim.duration = (UPDATE_INTERVAL / 2L)
+                            anim.start()
+                            colourFilterColour=color
+                        }
+                        glowSwitch=!glowSwitch
+                    }else{
+                        val anim: ValueAnimator = ValueAnimator.ofArgb(colourFilterColour, color);
+                        anim.addUpdateListener {
+                            @Override
+                            fun onAnimationUpdate(animation: ValueAnimator) {
+                                usageStatOverlayManager.glowView?.innerGlow?.setColour(animation.animatedValue as Int)
+                                usageStatOverlayManager.glowView?.outerGlow?.setColour(animation.animatedValue as Int)
+                                usageStatOverlayManager.glowView?.innerGlow?.invalidate()
+                                usageStatOverlayManager.glowView?.outerGlow?.invalidate()
+                            }
+                        }
+                        anim.duration = (UPDATE_INTERVAL / 2L).toLong()
+                        anim.start()
+                        colourFilterColour=color
+                    }*/
+                    usageStatOverlayManager.glowView?.innerGlow?.setColour(color)
+                    usageStatOverlayManager.glowView?.outerGlow?.setColour(color)
+                    usageStatOverlayManager.binding?.root?.requestLayout()
+                    usageStatOverlayManager.glowView?.innerGlow?.invalidate()
+                    usageStatOverlayManager.glowView?.outerGlow?.invalidate()
+                    //visible=true;
                     handler.postDelayed(this, UPDATE_INTERVAL)
                 }
             }

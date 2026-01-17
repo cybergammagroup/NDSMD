@@ -694,7 +694,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Donate us" />
+                    android:text="Donate us"
+                    android:visibility="gone" />
 
                 <Button
                     android:id="@+id/btn_discord"
@@ -702,7 +703,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="@string/join_discord" />
+                    android:text="@string/join_discord"
+                    android:visibility="gone" />
 
                 <Button
                     android:id="@+id/btn_telegram"
@@ -710,7 +712,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="@string/join_telegram" />
+                    android:text="@string/join_telegram"
+                    android:visibility="gone" />
 
 
                 <Button
@@ -719,7 +722,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Star us on github" />
+                    android:text="Star us on github"
+                    android:visibility="gone" />
 
                 <Button
                     android:id="@+id/btn_instagram"
@@ -727,7 +731,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="@string/follow_us_on_instagram" />
+                    android:text="@string/follow_us_on_instagram"
+                    android:visibility="gone" />
 
                 <Button
                     android:id="@+id/btn_credits"
@@ -735,7 +740,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Credits" />
+                    android:text="@string/credits" />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>

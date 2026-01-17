@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="16dp">
@@ -20,4 +21,34 @@
         android:text="@string/display_number_of_reels_scrolled"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cb_time_elapsed" />
+
+    <CheckBox
+        android:id="@+id/cb_enable_glow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_glow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cb_reel_counter" />
+
+    <EditText
+        android:id="@+id/txt_time_animation"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:imeActionLabel="@string/time_animation_precision"
+        android:inputType="number"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cb_enable_glow" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:labelFor="@id/txt_time_animation"
+        android:text="@string/time_animation_precision"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@id/txt_time_animation"
+        app:layout_constraintTop_toBottomOf="@id/cb_enable_glow" />
 </androidx.constraintlayout.widget.ConstraintLayout>

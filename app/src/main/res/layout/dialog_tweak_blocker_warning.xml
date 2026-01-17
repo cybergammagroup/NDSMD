@@ -35,15 +35,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <CheckBox
-        android:id="@+id/cb_reel_inbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:enabled="true"
-        android:text="@string/allow_viewing_instagram_reels_sent_in_instagram_inbox"
-        android:visibility="gone"
-        tools:visibility="visible" />
+        <CheckBox
+            android:id="@+id/cb_reel_inbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:enabled="true"
+            android:text="@string/allow_viewing_instagram_reels_sent_in_instagram_inbox"
+            android:visibility="gone"
+            tools:visibility="visible" />
 
         <CheckBox
         android:id="@+id/cb_dynamic_warning"
