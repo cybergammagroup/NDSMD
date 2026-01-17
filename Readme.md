@@ -15,11 +15,14 @@
         src="https://f-droid.org/badge/get-it-on.png" />
 </a>
 </div>
+- EN:
 
 NDSMD, a catholic android app blocker and screen time manager designed to help you deliver from the slavery of devil through screen addiction, and help you get closer to God, especially during Lent time.
 
 The name NDSMD was chosen in reference to an inscription on the Saint Benedict medal: NDSMD abbrevation for "Non Draco Sit Mihi Dux" which mean "May the dragon never be my overlord!". I chose this name for this app cause I consider that when we waste time on smartphones, we let the devil dumb us down and guide us.
 
+
+- FR:
 
 NDSMD, une application catholique de bloquage d'application et de gestion du temps d'écran pour android conçue pour vous aider à vous libérer de l'esclavage du démon à travers les addictions aux écrans, et pour vous aider à vous rapprocher de Dieu, notamment pendant le carême.
 
