@@ -28,6 +28,7 @@
         android:padding="8dp"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:visibility="visible"
         tools:text="@string/jesus_wait_you" />
 
     <cybergammagroup.ndsmd.views.HorizontalNumberPicker
@@ -48,7 +49,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="@string/proceed_in" />
+        android:text="@string/proceed_in"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/btn_proceed"

@@ -184,7 +184,7 @@
 	<string name="go_back">Retour en arrière</string>
     <string name="enable_glow">Activer l\'effet éclat.</string>
     <string name="time_animation_precision">Temps pour le max de l\'effet éclat en minutes.</string>
-    <string name="jesus_wait_you">Jésus t\'attends, oui TOI !\nNe laisse pas le diable t\'éloigner de Jésus et te rendre esclave à travers une addiction aux écrans.</string>
+    <string name="jesus_wait_you">Jésus t\'attends, oui TOI ! Ne laisse pas le diable t\'éloigner de Jésus et te rendre esclave à travers une addiction aux écrans.</string>
     <string name="credits">Crédits</string>
     <string name="credits_text">NDSMD est une application conçue pour aider les chrétiens à se libérer de l\'esclavage de leur smartphone, notamment pendant le temps de carème. \nCette application est basée sur l\'application open source DigiPaws, avec quelque nouvelles fonctionnalités et quelque modifications.</string>
     <string name="open_credit">Ouvrir les crédits DigiPaws</string>
