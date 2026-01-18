@@ -71,6 +71,8 @@ class WarningActivity : AppCompatActivity() {
             }
             .show()
         binding.warningMsg.text = warningScreenConfig.message
+        binding.warningMsgStatic.visibility = View.VISIBLE
+        binding.warningMsgStatic.text = getString(R.string.jesus_wait_you)
         binding.minsPicker.setValue(warningScreenConfig.timeInterval / 60000)
         binding.btnCancel.setOnClickListener {
             if (mode == Constants.WARNING_SCREEN_MODE_APP_BLOCKER || isHomePressRequested) {
