@@ -54,7 +54,16 @@ android {
                     variant.outputs
                         .map { it as com.android.build.gradle.internal.api.BaseVariantOutputImpl }
                         .forEach { output ->
-                            val outputFileName = "NDSMD-lite.apk"
+                            val outputFileName = "NDSMD-lite-release.apk"
+                            println("OutputFileName: $outputFileName")
+                            output.outputFileName = outputFileName
+                        }
+                }
+                if (variant.flavorName == "play-store") {
+                    variant.outputs
+                        .map { it as com.android.build.gradle.internal.api.BaseVariantOutputImpl }
+                        .forEach { output ->
+                            val outputFileName = "NDSMD-play-store-release.apk"
                             println("OutputFileName: $outputFileName")
                             output.outputFileName = outputFileName
                         }

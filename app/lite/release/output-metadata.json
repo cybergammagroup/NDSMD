@@ -13,7 +13,7 @@
       "attributes": [],
       "versionCode": 11,
       "versionName": "1.1-lite",
-      "outputFile": "NDSMD-lite.apk"
+      "outputFile": "NDSMD-lite-release.apk"
     }
   ],
   "elementType": "File",
@@ -22,14 +22,14 @@
       "minApi": 28,
       "maxApi": 30,
       "baselineProfiles": [
-        "baselineProfiles/1/NDSMD-lite.dm"
+        "baselineProfiles/1/NDSMD-lite-release.dm"
       ]
     },
     {
       "minApi": 31,
       "maxApi": 2147483647,
       "baselineProfiles": [
-        "baselineProfiles/0/NDSMD-lite.dm"
+        "baselineProfiles/0/NDSMD-lite-release.dm"
       ]
     }
   ],

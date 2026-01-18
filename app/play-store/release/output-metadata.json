@@ -13,7 +13,7 @@
       "attributes": [],
       "versionCode": 11,
       "versionName": "1.1-full",
-      "outputFile": "app-play-store-release.apk"
+      "outputFile": "NDSMD-play-store-release.apk"
     }
   ],
   "elementType": "File",
@@ -22,14 +22,14 @@
       "minApi": 28,
       "maxApi": 30,
       "baselineProfiles": [
-        "baselineProfiles/1/app-play-store-release.dm"
+        "baselineProfiles/1/NDSMD-play-store-release.dm"
       ]
     },
     {
       "minApi": 31,
       "maxApi": 2147483647,
       "baselineProfiles": [
-        "baselineProfiles/0/app-play-store-release.dm"
+        "baselineProfiles/0/NDSMD-play-store-release.dm"
       ]
     }
   ],
