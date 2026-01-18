@@ -7,7 +7,9 @@
    [![Repository Size](https://img.shields.io/github/repo-size/cybergammagroup/NDSMD)](https://github.com/cybergammagroup/NDSMD)
 
 </div>
-
+<div align="center">
+<a href="https://github.com/cybergammagroup/NDSMD/releases/latest/">Download on github / Télécharger sur github</a>
+</div>
 <!-- <div align="center">
 <a href="https://f-droid.org/packages/cybergammagroup.ndsmd/">
     <img alt="Get it on F-Droid"
