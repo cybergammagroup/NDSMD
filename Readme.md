@@ -7,15 +7,17 @@
    [![Repository Size](https://img.shields.io/github/repo-size/cybergammagroup/NDSMD)](https://github.com/cybergammagroup/NDSMD)
 
 </div>
-
 <div align="center">
+<a href="https://github.com/cybergammagroup/NDSMD/releases/latest/">Download on github / Télécharger sur github</a>
+</div>
+<!-- <div align="center">
 <a href="https://f-droid.org/packages/cybergammagroup.ndsmd/">
     <img alt="Get it on F-Droid"
         height="80"
         src="https://f-droid.org/badge/get-it-on.png" />
 </a>
 </div>
-
+-->
 - EN:
 
 NDSMD, a catholic android app blocker and screen time manager designed to help you deliver from the slavery of devil through screen addiction, and help you get closer to God, especially during Lent time.
