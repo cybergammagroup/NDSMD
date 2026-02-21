@@ -215,6 +215,11 @@ class UsageTrackingService : BaseBlockingService() {
         updateRunnable = object : Runnable {
             override fun run() {
                 if (isScreenOn) {
+                    if (!isTimeElapsedCounterOn) {
+                        usageStatOverlayManager.binding?.timeElapsedTxt?.visibility = View.GONE
+                    }else {
+                        usageStatOverlayManager.binding?.timeElapsedTxt?.visibility = View.VISIBLE
+                    }
                     val currentTime = System.currentTimeMillis()
                     val totalTime = accumulatedTime + (currentTime - screenOnTime)
                     usageStatOverlayManager.binding?.timeElapsedTxt?.text =
